@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- ===================================================== -->
+    <!-- MAIN APP THEME -->
+    <!-- ===================================================== -->
+
+    <style
+        name="Theme.ExpenseTracker"
+        parent="Theme.AppCompat.DayNight.NoActionBar" />
+
+    <!-- ===================================================== -->
+    <!-- SPLASH THEME -->
+    <!-- ===================================================== -->
+
+    <style
+        name="Theme.ExpenseTracker.Splash"
+        parent="Theme.SplashScreen">
+
+        <!-- Background -->
+
+        <item name="windowSplashScreenBackground">
+            #121212
+        </item>
+
+        <!-- Splash Icon -->
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/ic_green
+        </item>
+
+        <!-- Main App Theme -->
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.ExpenseTracker
+        </item>
+
+    </style>
+
+</resources>
